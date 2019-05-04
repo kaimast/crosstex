@@ -28,7 +28,7 @@ class HomepageHtml(object):
     def block(self, text, classes=''):
         if classes:
             classes = ' ' + classes.strip()
-        return '<div classes="line{0}">'.format(classes) + text.strip() + '</div>'
+        return '<div class="line{0}">'.format(classes) + text.strip() + '</div>'
 
     def block_sep(self):
         return '\n'
